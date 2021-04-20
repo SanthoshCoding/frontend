@@ -1,1 +1,2 @@
- docker run --name my-nginx111 -p 8081:80 -v /home/santhosh/frontend/:/usr/share/nginx/html -d nginx
+
+scp -i awsinstance.pem ./index.html ec2-user@ec2-65-2-131-216.ap-south-1.compute.amazonaws.com:/var/www/html/
